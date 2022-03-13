@@ -1,0 +1,62 @@
+
+
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    padding-left: 50px;
+}
+
+.avatar {
+
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+
+
+}
+
+.angle {
+    width: 30px;
+    height: 30px;
+    background: rgba(38, 38, 38, 0.5);
+    position: relative;
+
+}
+
+.angle:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-bottom-right-radius: 80%;
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    width: 200px;
+    height: 100px;
+    box-shadow: 5px 5px 2px indigo;
+    background-color: rgba(38, 38, 38, 0.5);
+    border-radius: 25px 25px 25px 0px;
+    padding: 20px;
+}
+
+.text {
+    color: black;
+    font-size: 25px;
+    font-family: Roboto;
+}
+
+.name {
+    color: white;
+    font-size: 27px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+.time {
+    padding-left: 150px;
+}
